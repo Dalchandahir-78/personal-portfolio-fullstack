@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIP Portfolio</title>
+    <!-- Fonts, Icons, and ScrollReveal Animations -->
+    <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@400;700;800&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+   <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <!-- Animated Premium Backdrops -->
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">Enginee<span>R</span></a>
+            <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#internship">Internship</a>
+                <a href="#contact" class="nav-btn">Hire Me</a>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <!-- Home / Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <!-- Left Side: Content -->
+            <div class="hero-text">
+                <div class="tag-reveal"><span>✦ Welcome to my websites</span></div>
+                <h1>Hi, I am <br><span class="highlight text-gradient">Dalchand Ahirwar</span></h1>
+                <h2>Creative <span class="typewriter"></span></h2>
+                <p>I build high-end web architectures, combining absolute performance with cinematic user interfaces that convert clients instantly.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-prime">Let's Connect <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#internship" class="btn btn-sec">View Experience</a>
+                </div>
+            </div>
+            
+            <!-- Right Side: VIP Animated Image Box -->
+            <div class="hero-image-wrapper">
+                <div class="image-glow-effect"></div>
+                <div class="image-box">
+                    <!-- Aap apni photo ka link yahan 'src' mein daal sakte hain -->
+                    <img src="me.jpg" alt="<%= data.name %> Image">
+                </div>
+                <!-- Extra Decorative Element for VIP Look -->
+                <div class="floating-badge">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Expert</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+ 
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div class="about-box reveal-left">
+                <h3>My Philosophy</h3>
+                <p>Main hamesha aisi websites banata hu jo na sirf dikhne me luxurious ho, balki speed aur coding architecture me bhi standard follow karein. Client satisfaction aur pixel-perfect delivery meri sabse badi priority hai.</p>
+            </div>
+            <div class="about-box reveal-right highlight-box">
+                <h3>Why Work With Me?</h3>
+                <ul class="custom-list">
+                    <li><i class="fa-solid fa-circle-check"></i> Super Smooth VIP Animations</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Clean and Scalable Backend Architecture</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Responsive Layout (Mobile Friendly)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+     <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Technical Expertise</h2>
+        <p class="section-subtitle">My core professional capabilities and software proficiencies</p>
+
+        <!-- Category 1: Web Development & Databases -->
+        <h3 class="skills-category-title"><i class="fa-solid fa-code"></i> Web Development & Databases</h3>
+        <div class="skills-container m-bottom">
+            
+            <!-- HTML5 -->
+            <div class="skill-card-vip hover-glow-orange">
+                <div class="skill-header">
+                    <i class="fa-brands fa-html5 text-orange"></i>
+                    <div class="skill-info">
+                        <h4>HTML5</h4>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                </div>
+                <div class="progress-line"><span style="width: 95%; background: #f97316;"></span></div>
+            </div>
+
+            <!-- CSS3 -->
+            <div class="skill-card-vip hover-glow-blue">
+                <div class="skill-header">
+                    <i class="fa-brands fa-css3-alt text-blue"></i>
+                    <div class="skill-info">
+                        <h4>CSS3 Architecture</h4>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                </div>
+                <div class="progress-line"><span style="width: 90%; background: #3b82f6;"></span></div>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="skill-card-vip hover-glow-yellow">
+                <div class="skill-header">
+                    <i class="fa-brands fa-js text-yellow"></i>
+                    <div class="skill-info">
+                        <h4>JavaScript (ES6+)</h4>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+                <div class="progress-line"><span style="width: 85%; background: #eab308;"></span></div>
+            </div>
+
+            <!-- PHP -->
+            <div class="skill-card-vip hover-glow-purple">
+                <div class="skill-header">
+                    <i class="fa-brands fa-php text-purple"></i>
+                    <div class="skill-info">
+                        <h4>PHP Backend</h4>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                </div>
+                <div class="progress-line"><span style="width: 80%; background: #a855f7;"></span></div>
+            </div>
+
+            <!-- MySQL -->
+            <div class="skill-card-vip hover-glow-cyan">
+                <div class="skill-header">
+                    <i class="fa-solid fa-database text-cyan"></i>
+                    <div class="skill-info">
+                        <h4>MySQL Database</h4>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+                <div class="progress-line"><span style="width: 85%; background: #06b6d4;"></span></div>
+            </div>
+
+            <!-- Python Basic -->
+            <div class="skill-card-vip hover-glow-green">
+                <div class="skill-header">
+                    <i class="fa-brands fa-python text-green"></i>
+                    <div class="skill-info">
+                        <h4>Python (Basics)</h4>
+                        <span class="skill-percentage">65%</span>
+                    </div>
+                </div>
+                <div class="progress-line"><span style="width: 65%; background: #22c55e;"></span></div>
+            </div>
+
+        </div>
+
+        <!-- Category 2: Microsoft Office Suite -->
+        <h3 class="skills-category-title"><i class="fa-solid fa-briefcase"></i> Professional Office Suite</h3>
+        <div class="skills-container">
+
+            <!-- Excel -->
+            <div class="skill-card-vip hover-glow-excel">
+                <div class="skill-header">
+                    <i class="fa-regular fa-file-excel text-excel"></i>
+                    <div class="skill-info">
+                        <h4>Microsoft Excel</h4>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                </div>
+                <div class="progress-line"><span style="width: 90%; background: #107c41;"></span></div>
+            </div>
+
+            <!-- MS Word -->
+            <div class="skill-card-vip hover-glow-word">
+                <div class="skill-header">
+                    <i class="fa-regular fa-file-word text-word"></i>
+                    <div class="skill-info">
+                        <h4>Microsoft Word</h4>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                </div>
+                <div class="progress-line"><span style="width: 95%; background: #2b579a;"></span></div>
+            </div>
+
+            <!-- PowerPoint -->
+            <div class="skill-card-vip hover-glow-powerpoint">
+                <div class="skill-header">
+                    <i class="fa-regular fa-file-powerpoint text-powerpoint"></i>
+                    <div class="skill-info">
+                        <h4>MS PowerPoint</h4>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+                <div class="progress-line"><span style="width: 85%; background: #d24726;"></span></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- <section id="skills" class="skills">
+        <h2 class="section-title">Core Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card"><i class="fa-brands fa-html5 text-orange"></i> <h4>HTML5</h4></div>
+            <div class="skill-card"><i class="fa-brands fa-css3-alt text-blue"></i> <h4>CSS3 / SCSS</h4></div>
+            <div class="skill-card"><i class="fa-brands fa-js text-yellow"></i> <h4>JavaScript</h4></div>
+            <div class="skill-card"><i class="fa-brands fa-node-js text-green"></i> <h4>Node.js / Express</h4></div>
+            <div class="skill-card"><i class="fa-solid fa-database text-cyan"></i> <h4>MongoDB / SQL</h4></div>
+            <div class="skill-card"><i class="fa-brands fa-git-alt text-red"></i> <h4>Git & Deployment</h4></div>
+        </div>
+    </section> -->
+
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2 class="section-title">Academic Journey</h2>
+        <p class="section-subtitle">My academic foundations and specialized technical qualification track</p>
+
+        <div class="timeline-vip">
+            <!-- Global Vertical Line Decorative Glow -->
+            <div class="timeline-line-glow"></div>
+
+            <!-- B.Tech (Current Pursuing) -->
+            <div class="timeline-item-vip reveal-left">
+                <div class="timeline-dot-vip glowing-dot-blue">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="timeline-content-vip border-glow-blue">
+                    <div class="timeline-header">
+                        <span class="status-tag pursuing">Pursuing</span>
+                        <h3 class="degree-title">B.Tech in Computer Science & Engineering</h3>
+                    </div>
+                    <h4 class="specialization-tag"><i class="fa-solid fa-cubes"></i> Specialization: Blockchain Technology</h4>
+                    <p class="institution-name"><i class="fa-solid fa-building-columns"></i> Samrat Ashok Technological Institute (SATI), Vidisha</p>
+                    <div class="academic-footer">
+                        <span class="edu-meta"><i class="fa-regular fa-calendar"></i> Current Track</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Diploma (RGPV Bhopal) -->
+            <div class="timeline-item-vip reveal-right">
+                <div class="timeline-dot-vip glowing-dot-purple">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+                <div class="timeline-content-vip border-glow-purple">
+                    <div class="timeline-header">
+                        <span class="status-tag completed">Passout 2024</span>
+                        <h3 class="degree-title">Diploma in Computer Science & Engineering</h3>
+                    </div>
+                    <p class="institution-name"><i class="fa-solid fa-building-columns"></i> Govt. Polytechnic College, Damoh</p>
+                    <div class="academic-footer">
+                        <span class="edu-meta"><i class="fa-solid fa-gavel"></i> University: RGPV, Bhopal</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10th (MP Board) -->
+            <div class="timeline-item-vip reveal-left">
+                <div class="timeline-dot-vip glowing-dot-orange">
+                    <i class="fa-solid fa-school"></i>
+                </div>
+                <div class="timeline-content-vip border-glow-orange">
+                    <div class="timeline-header">
+                        <span class="status-tag completed">Passout 2021</span>
+                        <h3 class="degree-title">High School Examination (10th)</h3>
+                    </div>
+                    <p class="institution-name"><i class="fa-solid fa-building-columns"></i> Govt. HSS, Sitanagar</p>
+                    <div class="academic-footer">
+                        <span class="edu-meta"><i class="fa-solid fa-landmark"></i> MP Board (MPBSE)</span>
+                        <span class="score-badge"><i class="fa-solid fa-chart-simple"></i> Score: 79%</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <!-- VIP Internship Section -->
+    <section id="internship" class="internship">
+        <h2 class="section-title">Internship Experience</h2>
+        <p class="section-subtitle">Real-world software engineering exposure and tactical project delivery</p>
+
+        <!-- CodSoft Corporate Showcase Card -->
+        <div class="intern-corporate-card reveal-top">
+            <div class="corporate-header">
+                <div class="corp-branding">
+                    <div class="corp-logo-box">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="corp-title">
+                        <h3>Web Development Intern</h3>
+                        <h4>CodSoft <span class="badge-online"><i class="fa-solid fa-globe"></i> Virtual / Online</span></h4>
+                    </div>
+                </div>
+                <div class="corp-duration">
+                    <i class="fa-regular fa-calendar-days"></i> <span>05/08/2025 — 05/09/2025</span>
+                </div>
+            </div>
+            
+            <p class="corp-summary">
+                During this intensive virtual engineering internship at CodSoft, I developed production-ready frontend architectures. I focused on responsive layout standards, modern DOM manipulation, and semantic UI frameworks while delivering performance-optimized web software under strict sprint timelines.
+            </p>
+
+            <!-- Tasks Sub-Grid -->
+            <h4 class="tasks-headline"><i class="fa-solid fa-diagram-project"></i> Core Core Tasks Engineered</h4>
+            <div class="tasks-grid-vip">
+
+                <!-- Task 1: Portfolio Website -->
+                <div class="task-card-vip">
+                    <div class="task-banner portfolio-bg">
+                        <i class="fa-solid fa-user-tie task-main-icon"></i>
+                    </div>
+                    <div class="task-body">
+                        <h3>VIP Portfolio Hub</h3>
+                        <p>Engineered a highly optimized personal presentation portfolio, featuring responsive fluid grids, asset lazy-loading, and premium custom CSS layout configurations.</p>
+                        <div class="task-tech-tags">
+                            <span>HTML5</span>
+                            <span>CSS3 Glow</span>
+                            <span>ES6 JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Task 2: Calculator -->
+                <div class="task-card-vip">
+                    <div class="task-banner calculator-bg">
+                        <i class="fa-solid fa-calculator task-main-icon"></i>
+                    </div>
+                    <div class="task-body">
+                        <h3>Smart Matrix Calculator</h3>
+                        <p>Developed a clean arithmetic computing engine executing dynamic evaluation functions with an instantaneous responsive input interface.</p>
+                        <div class="task-tech-tags">
+                            <span>JavaScript</span>
+                            <span>DOM Manipulation</span>
+                            <span>CSS Grid</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Task 3: Landing Page -->
+                <div class="task-card-vip">
+                    <div class="task-banner landing-bg">
+                        <i class="fa-solid fa-rocket task-main-icon"></i>
+                    </div>
+                    <div class="task-body">
+                        <h3>High-Conversion Landing Page</h3>
+                        <p>Designed a modern high-impact digital single-page application focused on aesthetic visual layouts, fluid typography scaling, and high structural conversion mechanics.</p>
+                        <div class="task-tech-tags">
+                            <span>Flexbox Layouts</span>
+                            <span>Keyframe FX</span>
+                            <span>Semantic HTML</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- <section id="contact" class="contact">
+        <div class="contact-wrapper">
+            <h2 class="section-title">Start a Project</h2>
+            <p>Let's turn your vision into an award-winning digital masterpiece.</p>
+            <form id="vip-form" class="premium-form">
+                <div class="input-row">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <textarea rows="6" placeholder="Project Description or Message..." required></textarea>
+                <button type="submit" class="btn btn-prime btn-block">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section> -->
+    <section id="contact" class="vip-contact-section">
+    <div class="vip-contact-container">
+        
+        <div class="vip-info-panel">
+            <span class="status-badge"><i class="fa-solid fa-bolt"></i> Available for Elite Projects</span>
+            <h2 class="vip-panel-title">Let's Build Something <br><span class="neon-text-gradient">Legendary</span></h2>
+            <p class="vip-panel-desc">Have a complex application system, architectural blueprint, or premium design request? Secure a direct encrypted line with me.</p>
+            
+            <div class="vip-meta-list">
+                <div class="vip-meta-item">
+                    <div class="vip-meta-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                    <div class="vip-meta-text">
+                        <span>Direct Electronic Mail</span>
+                        <p>dalchandahirwar49@gmail.com</p>
+                    </div>
+                </div>
+                <div class="vip-meta-item">
+                    <div class="vip-meta-icon"><i class="fa-solid fa-location-crosshairs"></i></div>
+                    <div class="vip-meta-text">
+                        <span>Current Headquarters</span>
+                        <p>Madhya Pradesh, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="vip-form-panel">
+            <div class="ambient-glow-halo"></div>
+            <form action="/contact" method="POST" class="vip-interactive-form">
+                <h3 class="vip-form-title">Secure Transmission Terminal</h3>
+                
+                <div class="vip-input-group">
+                    <input type="text" name="name" required placeholder=" ">
+                    <label><i class="fa-regular fa-user"></i> Full Name</label>
+                    <span class="animated-focus-border"></span>
+                </div>
+
+                <div class="vip-input-group">
+                    <input type="email" name="email" required placeholder=" ">
+                    <label><i class="fa-regular fa-envelope"></i> Email Address</label>
+                    <span class="animated-focus-border"></span>
+                </div>
+
+                <div class="vip-input-group">
+                    <textarea name="message" rows="5" required placeholder=" "></textarea>
+                    <label><i class="fa-regular fa-comment-dots"></i> Project Architecture / Specs</label>
+                    <span class="animated-focus-border"></span>
+                </div>
+
+                <button type="submit" class="vip-submit-trigger">
+                    <span>Initialize Dispatch</span>
+                    <i class="fa-solid fa-paper-plane rocket-icon"></i>
+                </button>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 <%= data.name %>. Engineered with absolute luxury.</p>
+    </footer>
+
+    <script src="/main.js"></script>
+</body>
+</html>
